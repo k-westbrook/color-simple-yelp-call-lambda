@@ -15,5 +15,5 @@ exports.handler = async (event) => {
   } catch (err) {
     return err;
   }
-  return results.data;
+  return results.data.businesses;
 };
